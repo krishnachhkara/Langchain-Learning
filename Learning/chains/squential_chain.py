@@ -31,4 +31,4 @@ result = chain.invoke({"topic": "Time Management"})
 
 print(result)
 
-chain.get_graph().draw_ascii()
+chain.get_graph().print_ascii()
